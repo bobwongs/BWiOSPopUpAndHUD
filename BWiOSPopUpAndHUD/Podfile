@@ -1,0 +1,17 @@
+platform :ios, '7.0'
+
+target 'BWiOSPopUpAndHUD' do
+
+  pod 'Masonry'
+
+  target 'BWiOSPopUpAndHUDTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BWiOSPopUpAndHUDUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
